@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+    margin: 30px 0;
+    color: #fff; 
+}    
+
+.text{
+    color: #fff;
+}
+
+.profile-image {
+    max-width: 150px;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.interest {
+    position: relative;
+    width: 250px;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+#swimming {
+    background-color: #fff;
+    color: dodgerblue; 
+    width: 200px;
+    height: 200px;
+}
+
+#car-riding {
+    background-color: #fff; 
+    color: dodgerblue;
+    width: 200px;
+    height: 200px;
+}
+
+#songs {
+    background-color: #fff; 
+    color: dodgerblue; 
+    width: 200px;
+    height: 200px;
+}
+
+#movies {
+    background-color: #fff; 
+    color: dodgerblue; 
+    width: 200px;
+    height: 200px;
+}
+
+#stamp-collection {
+    background-color: #fff; 
+    color: dodgerblue; 
+    width: 200px;
+    height: 200px;
+}
+
+#swimming img, #car-riding img, #songs img, #movies img, #stamp-collection img {
+    width: 100%;
+    height: 75%;
+}
+
+.interest:hover {
+    transform: scale(1.05);
+}
