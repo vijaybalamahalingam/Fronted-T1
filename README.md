@@ -1,4 +1,4 @@
-# Fronted-T1
+# Fronted - HTML, CSS - Task
 # Vijay Bala Mahalingam's Portfolio
 
 This is a simple portfolio website for Vijay Bala Mahalingam, showcasing his leisure interests.
